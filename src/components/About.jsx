@@ -1,11 +1,14 @@
 import React from 'react'
+import plant1 from '../assets/img/plant-1.png';
+import plant2 from '../assets/img/plant-2.png';
+import leaf_4 from "../assets/img/leaf-4.png";
 
 const About = ({aboutRef}) => {
   return (
     <section ref={aboutRef} id="about" className='relative py-20 md:py-28 overflow-hidden'>
 
     <div className='absolute -top-16 -right-14 opacity-50'>
-      <img src="../.././assests/img/leaf-4.png" alt="leaf_iamge" className='w-40 md:w-52 xl:w-64'/>
+      <img src={leaf_4} alt="leaf_iamge" className='w-40 md:w-52 xl:w-64'/>
     </div>
     
               <div className='flex flex-col items-center gap-3 text-center mb-10 md:mb-20'>
@@ -18,7 +21,7 @@ const About = ({aboutRef}) => {
                 <div className='flex flex-col items-center lg:flex-row gap-5'>
                   {/* image  */}
                   <div className='w-full lg:w-1/2'>
-                    <img src="../.././assests/img/plant-1.png" alt="about_image" className='w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto'/>
+                    <img src={plant1} alt="about_image" className='w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto'/>
                   </div>
     
                   {/* content */}
@@ -44,7 +47,7 @@ const About = ({aboutRef}) => {
                  <div className='flex flex-col items-center lg:flex-row-reverse gap-5'>
                   {/* image  */}
                   <div className='w-full lg:w-1/2'>
-                    <img src="../.././assests/img/plant-2.png" alt="about_image" className='w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto'/>
+                    <img src={plant2} alt="about_image" className='w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto'/>
                   </div>
     
                   {/* content */}

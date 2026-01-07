@@ -10,7 +10,7 @@ import Services from './components/Services';
 import About from './components/About';
 import Popular from './components/Popular';
 import Review from './components/Review';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 
 function App() {
   const aboutRef = useRef(null);

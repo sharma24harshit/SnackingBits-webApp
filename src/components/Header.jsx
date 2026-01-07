@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { RiCloseLargeFill, RiMenu4Fill } from "react-icons/ri";
+import leaf1 from '../assets/img/leaf-1.png';
+import leaf2 from '../assets/img/leaf-2.png';
 
 const Header = ({aboutRef, popularRef, reviewRef, homeRef,  handleFunc}) => {
     const [showMenu, setShowMenu] = useState(false);
@@ -34,11 +36,11 @@ const Header = ({aboutRef, popularRef, reviewRef, homeRef,  handleFunc}) => {
                     </ul>
 
                     <div className='absolute bottom-0 -right-10 opacity-90 lg:hidden'>
-                        <img src="../.././assests/img/leaf-1.png" alt="leaf_image" className="w-32" />
+                        <img src={leaf1} alt="leaf_image" className="w-32" />
                     </div>
 
                     <div className='absolute -top-5 -left-5 rotate-90 opacity-90 lg:hidden'>
-                        <img src="../.././assests/img/leaf-2.png" alt="leaf_image" className="w-32" />
+                        <img src={leaf2} alt="leaf_image" className="w-32" />
                     </div>
                 </div>
 

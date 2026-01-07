@@ -1,5 +1,6 @@
 import React from 'react'
 import { RiShoppingCartFill, RiStarFill, RiStarHalfFill, RiStarLine } from "react-icons/ri";
+import cart3 from '../assets/img/cart-3.png';
 
 const Popular = ({popularRef}) => {
   return (
@@ -12,7 +13,7 @@ const Popular = ({popularRef}) => {
               <div className='container w-full grid grid-cols-1 gap-x-8 gap-y-36 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
                 {/* card 1 */}
                 <div id="popular_card" className='bg-green-950 p-10 pt-16 rounded-md relative'>
-                  <img src="../.././assests/img/cart-3.png" alt="popular_image" 
+                  <img src={cart3} alt="popular_image" 
                   className='w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500
                   hover:-top-8'/>
 
@@ -37,7 +38,7 @@ const Popular = ({popularRef}) => {
 
                 {/* card 2 */}
                 <div id="popular_card" className='bg-green-950 p-10 pt-16 rounded-md relative'>
-                  <img src="../.././assests/img/cart-3.png" alt="popular_image" 
+                  <img src={cart3} alt="popular_image" 
                   className='w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500
                   hover:-top-8'/>
 
@@ -62,7 +63,7 @@ const Popular = ({popularRef}) => {
 
                 {/* card 3 */}
                 <div id="popular_card" className='bg-green-950 p-10 pt-16 rounded-md relative'>
-                  <img src="../.././assests/img/cart-3.png" alt="popular_image" 
+                  <img src={cart3} alt="popular_image" 
                   className='w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500
                   hover:-top-8'/>
 
@@ -87,7 +88,7 @@ const Popular = ({popularRef}) => {
 
                 {/* card 4 */}
                 <div id="popular_card" className='bg-green-950 p-10 pt-16 rounded-md relative'>
-                  <img src="../.././assests/img/cart-3.png" alt="popular_image" 
+                  <img src={cart3} alt="popular_image" 
                   className='w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500
                   hover:-top-8'/>
 

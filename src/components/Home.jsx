@@ -1,5 +1,6 @@
 import React from 'react'
 import { RiFacebookFill, RiFlowerLine, RiInstagramLine, RiLeafLine, RiLinkedinBoxFill, RiPlantLine, RiTwitterXLine } from "react-icons/ri";
+import home from '../assets/img/home.png';
 
 const Home = ({homeRef}) => {
     return (
@@ -57,7 +58,7 @@ const Home = ({homeRef}) => {
                     </div>
                     {/* image */}
                     <div className='w-full relative lg:w-1/2'>
-                        <img src="../.././assests/img/home.png" alt="home_image" />
+                        <img src={home} alt="home_image" />
 
                         {/* leaf */}
                         <div className='absolute -top-0 right-0 opacity-30 xl:top-5 animate-movingY'>

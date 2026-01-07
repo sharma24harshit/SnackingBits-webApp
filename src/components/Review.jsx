@@ -1,12 +1,14 @@
 import React from 'react'
 import { RiDoubleQuotesR } from 'react-icons/ri'
+import leaf3 from '../assets/img/leaf-3.png';
+import review from '../assets/img/review-1.jpg';
 
 const Review = ({reviewRef}) => {
     return (
         <section ref={reviewRef} id="review" className='relative py-20 md:py-28'>
 
             <div className='absolute -top-16 -left-16 opacity-60'>
-                <img src="../.././assests/img/leaf-3.png" alt="leaf_image" className='w-40 md:w-52 xl:w-64' />
+                <img src={leaf3} alt="leaf_image" className='w-40 md:w-52 xl:w-64' />
             </div>
 
             <div className='flex flex-col items-center gap-3 text-center mb-10 md:mb-20'>
@@ -25,7 +27,7 @@ const Review = ({reviewRef}) => {
                                     doloremque recusandae incidunt tempora provident.
                                 </p>
                                 <div className='flex items-center'>
-                                    <img src="../.././assests/img/review-1.jpg" alt="review_1"
+                                    <img src={review} alt="review_1"
                                         className='w-12 h-12 rounded-full' />
                                     <div className='ml-2'>
                                         <p className='text-yellow-500 uppercase font-bold'>John Doe</p>

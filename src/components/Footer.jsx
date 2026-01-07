@@ -1,5 +1,6 @@
 import React from 'react'
 import { RiFacebookFill, RiInstagramLine, RiLeafFill, RiLinkedinBoxFill, RiSendPlane2Fill, RiTwitterXLine } from "react-icons/ri";
+import floral from '../assets/img/floral-1.png';
 
 const Footer = () => {
     return (
@@ -89,7 +90,7 @@ const Footer = () => {
             </div>
             {/*--------  floral image -------- */}
             <div className='absolute bottom-0 left-0 opacity-20 pointer-events-none'>
-                <img src="../.././assests/img/floral-1.png" alt="floral_image"
+                <img src={floral} alt="floral_image"
                     className='w-full lg:w-1/2' />
             </div>
         </footer>
