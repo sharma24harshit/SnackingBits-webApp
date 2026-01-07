@@ -1,9 +1,9 @@
 import React from 'react'
 import { RiShoppingCartFill, RiStarFill, RiStarHalfFill, RiStarLine } from "react-icons/ri";
 
-const Popular = () => {
+const Popular = ({popularRef}) => {
   return (
-    <section id="popular" className='bg-green-900 py-20 md:py-28'>
+    <section ref={popularRef} id="popular" className='bg-green-900 py-20 md:py-28'>
         <div className='flex flex-col items-center gap-3 text-center mb-40'>
                 <h2 id="title" className='font-Lobster text-yellow-500 text-2xl md:text-3xl xl:text-4xl'>Your Choice Plant</h2>
                 <p className='max-w-2xl'>Follow instruction for more</p>

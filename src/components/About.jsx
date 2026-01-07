@@ -1,8 +1,8 @@
 import React from 'react'
 
-const About = () => {
+const About = ({aboutRef}) => {
   return (
-    <section id="about" className='relative py-20 md:py-28 overflow-hidden'>
+    <section ref={aboutRef} id="about" className='relative py-20 md:py-28 overflow-hidden'>
 
     <div className='absolute -top-16 -right-14 opacity-50'>
       <img src="../.././assests/img/leaf-4.png" alt="leaf_iamge" className='w-40 md:w-52 xl:w-64'/>

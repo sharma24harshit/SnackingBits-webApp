@@ -1,9 +1,9 @@
 import React from 'react'
 import { RiFacebookFill, RiFlowerLine, RiInstagramLine, RiLeafLine, RiLinkedinBoxFill, RiPlantLine, RiTwitterXLine } from "react-icons/ri";
 
-const Home = () => {
+const Home = ({homeRef}) => {
     return (
-        <section id="home" className='relative py-20 md:py-28'>
+        <section ref={homeRef} id="home" className='relative py-20 md:py-28'>
             <div className='container'>
                 {/* blob 1 */}
                 <div className='w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute top-1/2 left-1/2

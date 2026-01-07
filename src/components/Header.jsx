@@ -1,12 +1,8 @@
 import React, { useState } from 'react'
 import { RiCloseLargeFill, RiMenu4Fill } from "react-icons/ri";
 
-const Header = () => {
+const Header = ({aboutRef, popularRef, reviewRef, homeRef,  handleFunc}) => {
     const [showMenu, setShowMenu] = useState(false);
-
-    const handleLinkClick = () => {
-        setShowMenu(false);
-    };
 
     return (
         <header id="navbar" className='bg-green-950 fixed w-full top-0 left-0 z-50'>
@@ -19,10 +15,22 @@ const Header = () => {
        lg:static lg:min-h-fit lg:bg-transparent lg:w-auto`}>
 
                     <ul className='flex flex-col items-center gap-8 lg:flex-row'>
-                        <li><a href="#" className="text-lg font-bold duration-300 hover:text-yellow-500" onClick={handleLinkClick} >Home</a></li>
-                        <li><a href="#" className="text-lg font-bold duration-300 hover:text-yellow-500" onClick={handleLinkClick} >About</a></li>
-                        <li><a href="#" className="text-lg font-bold duration-300 hover:text-yellow-500" onClick={handleLinkClick} >Popular</a></li>
-                        <li><a href="#" className="text-lg font-bold duration-300 hover:text-yellow-500" onClick={handleLinkClick} >Review</a></li>
+                        <li><a className="text-lg cursor-pointer font-bold duration-300 hover:text-yellow-500"onClick={() => {
+                             handleFunc(homeRef);
+                             setShowMenu(false);
+                             }} >Home</a></li>
+                        <li><a className="text-lg cursor-pointer font-bold duration-300 hover:text-yellow-500" onClick={() => {
+                             handleFunc(aboutRef);
+                             setShowMenu(false);
+                             }} >About</a></li>
+                        <li><a className="text-lg cursor-pointer font-bold duration-300 hover:text-yellow-500" onClick={() => {
+                             handleFunc(popularRef);
+                             setShowMenu(false);
+                             }} >Popular</a></li>
+                        <li><a className="text-lg cursor-pointer font-bold duration-300 hover:text-yellow-500" onClick={() => {
+                             handleFunc(reviewRef);
+                             setShowMenu(false);
+                             }} >Review</a></li>
                     </ul>
 
                     <div className='absolute bottom-0 -right-10 opacity-90 lg:hidden'>

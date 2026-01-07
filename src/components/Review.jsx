@@ -1,9 +1,9 @@
 import React from 'react'
 import { RiDoubleQuotesR } from 'react-icons/ri'
 
-const Review = () => {
+const Review = ({reviewRef}) => {
     return (
-        <section id="review" className='relative py-20 md:py-28'>
+        <section ref={reviewRef} id="review" className='relative py-20 md:py-28'>
 
             <div className='absolute -top-16 -left-16 opacity-60'>
                 <img src="../.././assests/img/leaf-3.png" alt="leaf_image" className='w-40 md:w-52 xl:w-64' />
