@@ -1,7 +1,9 @@
 import React from 'react'
 import { RiDoubleQuotesR } from 'react-icons/ri'
 import leaf3 from '../assets/img/leaf-3.png';
-import review from '../assets/img/review-1.jpg';
+import review1 from '../assets/img/review-1.jpg';
+import review2 from '../assets/img/review-2.jpg';
+import review3 from '../assets/img/review-3.jpg';
 
 const Review = ({reviewRef}) => {
     return (
@@ -18,7 +20,8 @@ const Review = ({reviewRef}) => {
 
             <div className='container'>
                 <div className='py-12'>
-                    <ul>
+                    <ul className='flex flex-col gap-2'>
+                        {/* review 1 */}
                         <li>
                             <div className='flex flex-col gap-5 bg-green-900 rounded-md p-6'>
                                 <p className='font-Lobster'>
@@ -27,11 +30,49 @@ const Review = ({reviewRef}) => {
                                     doloremque recusandae incidunt tempora provident.
                                 </p>
                                 <div className='flex items-center'>
-                                    <img src={review} alt="review_1"
+                                    <img src={review1} alt="review_1"
                                         className='w-12 h-12 rounded-full' />
                                     <div className='ml-2'>
                                         <p className='text-yellow-500 uppercase font-bold'>John Doe</p>
                                         <p>Designer</p>
+                                    </div>
+                                    <i className='text-4xl ml-auto'><RiDoubleQuotesR /></i>
+                                </div>
+                            </div>
+                        </li>
+{/* review 2 */}
+                        <li>
+                            <div className='flex flex-col gap-5 bg-green-900 rounded-md p-6'>
+                                <p className='font-Lobster'>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Dolor magni ipsam ducimus,
+                                    doloremque recusandae incidunt tempora provident.
+                                </p>
+                                <div className='flex items-center'>
+                                    <img src={review2} alt="review_1"
+                                        className='w-12 h-12 rounded-full' />
+                                    <div className='ml-2'>
+                                        <p className='text-yellow-500 uppercase font-bold'>Superman</p>
+                                        <p>Alien</p>
+                                    </div>
+                                    <i className='text-4xl ml-auto'><RiDoubleQuotesR /></i>
+                                </div>
+                            </div>
+                        </li>
+{/* review 3 */}
+                        <li>
+                            <div className='flex flex-col gap-5 bg-green-900 rounded-md p-6'>
+                                <p className='font-Lobster'>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Dolor magni ipsam ducimus,
+                                    doloremque recusandae incidunt tempora provident.
+                                </p>
+                                <div className='flex items-center'>
+                                    <img src={review3} alt="review_1"
+                                        className='w-12 h-12 rounded-full' />
+                                    <div className='ml-2'>
+                                        <p className='text-yellow-500 uppercase font-bold'>Peter Thomas</p>
+                                        <p>Dragon Keeper</p>
                                     </div>
                                     <i className='text-4xl ml-auto'><RiDoubleQuotesR /></i>
                                 </div>
