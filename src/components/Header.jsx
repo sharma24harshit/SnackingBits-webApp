@@ -7,7 +7,7 @@ const Header = ({aboutRef, popularRef, reviewRef, homeRef,  handleFunc}) => {
     const [showMenu, setShowMenu] = useState(false);
 
     return (
-        <header id="navbar" className='bg-blue-800 fixed w-full top-0 left-0 z-50'>
+        <header id="navbar" className='bg-teal-900 fixed w-full top-0 left-0 z-50'>
             <nav className='container flex items-center justify-between h-16 sm:h-20'>
 
                 <div className='font-Lobster sm:text-3xl'> SnackingBits </div>

@@ -1,6 +1,6 @@
 import React from 'react'
-import plant1 from '../assets/img/plant-1.png';
-import plant2 from '../assets/img/plant-2.png';
+import plant1 from '../assets/img/home2.png';
+import plant2 from '../assets/img/home3.png';
 import leaf_4 from "../assets/img/leaf-4.png";
 
 const About = ({aboutRef}) => {
@@ -8,7 +8,7 @@ const About = ({aboutRef}) => {
     <section ref={aboutRef} id="about" className='relative py-20 md:py-28 overflow-hidden'>
 
     <div className='absolute -top-16 -right-14 opacity-50'>
-      <img src={leaf_4} alt="leaf_iamge" className='w-40 md:w-52 xl:w-64'/>
+      <img src={leaf_4} alt="leaf_iamge" className='w-40 md:w-52 xl:w-70'/>
     </div>
     
               <div className='flex flex-col items-center gap-3 text-center mb-10 md:mb-20'>
