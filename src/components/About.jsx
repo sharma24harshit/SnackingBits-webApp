@@ -28,17 +28,13 @@ const About = ({aboutRef}) => {
                   <div className='w-full lg:w-1/2'>
                     <div className='space-y-5'>
                       <h3 className='text-xl md:text-2xl xl:text-3xl'>
-                        Make your <span className='text-yellow-500'>organic</span>
-                        <br />garden
+                        Discover our <span className='text-yellow-500'>premium</span>
+                        <br />snack collection
                       </h3>
                       <p className='text-salte-300 font-Lobster'>
-                        Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Placeat fugiat molestias
-                        aliquam facilis et sint, odit voluptas
-                        aperiam voluptatum at voluptatem, vitae
-                        aliquid! Error perferendis, dolor ducimus
-                        ullam reiciendis repellat ea iste quia sed
-                        voluptatum minus.</p>
+                        At SnackingBits, we curate the finest selection of snacks from around the world. 
+                        Each product is carefully chosen for its quality, flavor, and freshness. 
+                        Whether you crave something sweet, salty, or healthy, we have the perfect snack for every moment.</p>
                     </div>
                   </div>
                 </div>
@@ -54,17 +50,14 @@ const About = ({aboutRef}) => {
                   <div className='w-full lg:w-1/2'>
                     <div className='space-y-5'>
                       <h3 className='text-xl md:text-2xl xl:text-3xl'>
-                        Come with us <br /> <span className='text-yellow-500'>grow up </span>
-                        your plant
+                        Join us on a journey <br /> <span className='text-yellow-500'>exploring </span>
+                        delicious flavors
                       </h3>
                       <p className='text-salte-300 font-Lobster'>
-                        Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Placeat fugiat molestias
-                        aliquam facilis et sint, odit voluptas
-                        aperiam voluptatum at voluptatem, vitae
-                        aliquid! Error perferendis, dolor ducimus
-                        ullam reiciendis repellat ea iste quia sed
-                        voluptatum minus.</p>
+                        We're passionate about bringing you snacks that not only taste amazing but also 
+                        meet high quality standards. Our commitment to excellence means you can trust 
+                        every bite. From classic favorites to unique international treats, discover 
+                        your next favorite snack with SnackingBits.</p>
                     </div>
                   </div>
                 </div>

@@ -1,7 +1,7 @@
-<h1>Site Name: <span style="color:green">IndoorPlants.com</span></h1>
+<h1>Site Name: <span style="color:green">SnackingBits</span></h1>
 
 <h2>
-IndoorPlants.com is an e-commerce website where users can browse and purchase a variety of indoor plant products.
+SnackingBits is an e-commerce website where users can browse and purchase a variety of premium snack products.
 </h2>
 
 <h2>

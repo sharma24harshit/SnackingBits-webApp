@@ -1,6 +1,6 @@
 import React from 'react'
 import { RiFacebookFill, RiFlowerLine, RiInstagramLine, RiLeafLine, RiLinkedinBoxFill, RiPlantLine, RiTwitterXLine } from "react-icons/ri";
-import home from '../assets/img/home.png';
+import home from '../assets/img/home1.png';
 
 const Home = ({homeRef}) => {
     return (
@@ -20,17 +20,15 @@ const Home = ({homeRef}) => {
                     {/* content */}
                     <div className='w-full space-y-5 lg:w-1/2'>
                         <h1 className='text-3xl md:text-4xl xl:text-5xl font-bold'>
-                            <span className='text-yellow-500'>Plants</span> make a
-                            <br />
+                            <span className='text-yellow-500'>Delicious</span> snacks make a
                             positive
                             <span className='text-yellow-500'> impact</span> on <br />
-                            your environment
+                            your taste buds
                         </h1>
 
                         <p className='text-slate-300 font-Lobster'>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Cupiditate nam, quaerat aliquid dolorum tempore
-                            culpa et ipsa labore fuga optio?
+                            Discover premium quality snacks crafted with care. From crunchy chips to healthy treats, 
+                            we bring you the finest selection of snacks to satisfy every craving.
                         </p>
 
                         <div className='flex flex-col gap-1 sm:flex-row ms:gap-4 lg:pt-5 xl:pt-10'>
@@ -46,7 +44,7 @@ const Home = ({homeRef}) => {
                         </div>
 
                         <p className='text-xs font-Lobster text-slate-300'>
-                            You will get 30-days free trial.
+                            Free delivery on orders over 200AED.
                         </p>
 
                         <div className='flex gap-5 items-center text-lg lg:pt-10'>

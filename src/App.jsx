@@ -3,7 +3,7 @@
 // import viteLogo from '/vite.svg'
 import { useRef } from 'react';
 import './App.css'
-import { RiDoubleQuotesR, RiFacebookFill, RiInstagramLine, RiLeafFill, RiLinkedinBoxFill, RiSendPlane2Fill, RiTwitterXLine } from "react-icons/ri";
+import { RiTwitterXLine } from "react-icons/ri";
 import Header from './components/Header';
 import Home from './components/Home';
 import Services from './components/Services';

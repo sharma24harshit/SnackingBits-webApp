@@ -14,8 +14,8 @@ const Review = ({reviewRef}) => {
             </div>
 
             <div className='flex flex-col items-center gap-3 text-center mb-10 md:mb-20'>
-                <h2 id="title" className='font-Lobster text-yellow-500 text-2xl md:text-3xl xl:text-4xl'>Customer Review</h2>
-                <p className='max-w-2xl'>Follow instruction for more</p>
+                <h2 id="title" className='font-Lobster text-yellow-500 text-2xl md:text-3xl xl:text-4xl'>Customer Reviews</h2>
+                <p className='max-w-2xl'>See what our customers are saying about our snacks</p>
             </div>
 
             <div className='container'>
@@ -25,16 +25,15 @@ const Review = ({reviewRef}) => {
                         <li>
                             <div className='flex flex-col gap-5 bg-green-900 rounded-md p-6'>
                                 <p className='font-Lobster'>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Dolor magni ipsam ducimus,
-                                    doloremque recusandae incidunt tempora provident.
+                                    These snacks are absolutely amazing! The quality is top-notch and the flavors are incredible. 
+                                    I've been ordering from SnackingBits for months and I'm never disappointed.
                                 </p>
                                 <div className='flex items-center'>
                                     <img src={review1} alt="review_1"
                                         className='w-12 h-12 rounded-full' />
                                     <div className='ml-2'>
-                                        <p className='text-yellow-500 uppercase font-bold'>John Doe</p>
-                                        <p>Designer</p>
+                                        <p className='text-yellow-500 uppercase font-bold'>Sarah Johnson</p>
+                                        <p>Food Blogger</p>
                                     </div>
                                     <i className='text-4xl ml-auto'><RiDoubleQuotesR /></i>
                                 </div>
@@ -44,16 +43,15 @@ const Review = ({reviewRef}) => {
                         <li>
                             <div className='flex flex-col gap-5 bg-green-900 rounded-md p-6'>
                                 <p className='font-Lobster'>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Dolor magni ipsam ducimus,
-                                    doloremque recusandae incidunt tempora provident.
+                                    Fast delivery and fresh snacks every time! The variety is impressive and the prices are very reasonable. 
+                                    Highly recommend SnackingBits to all snack lovers out there.
                                 </p>
                                 <div className='flex items-center'>
                                     <img src={review2} alt="review_1"
                                         className='w-12 h-12 rounded-full' />
                                     <div className='ml-2'>
-                                        <p className='text-yellow-500 uppercase font-bold'>Superman</p>
-                                        <p>Alien</p>
+                                        <p className='text-yellow-500 uppercase font-bold'>Michael Chen</p>
+                                        <p>Chef</p>
                                     </div>
                                     <i className='text-4xl ml-auto'><RiDoubleQuotesR /></i>
                                 </div>
@@ -63,16 +61,15 @@ const Review = ({reviewRef}) => {
                         <li>
                             <div className='flex flex-col gap-5 bg-green-900 rounded-md p-6'>
                                 <p className='font-Lobster'>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Dolor magni ipsam ducimus,
-                                    doloremque recusandae incidunt tempora provident.
+                                    Best snack website I've found! The customer service is excellent and they always have 
+                                    new and exciting products. My family loves everything we've ordered so far.
                                 </p>
                                 <div className='flex items-center'>
                                     <img src={review3} alt="review_1"
                                         className='w-12 h-12 rounded-full' />
                                     <div className='ml-2'>
-                                        <p className='text-yellow-500 uppercase font-bold'>Peter Thomas</p>
-                                        <p>Dragon Keeper</p>
+                                        <p className='text-yellow-500 uppercase font-bold'>Emily Rodriguez</p>
+                                        <p>Nutritionist</p>
                                     </div>
                                     <i className='text-4xl ml-auto'><RiDoubleQuotesR /></i>
                                 </div>

@@ -12,7 +12,7 @@ const Services = () => {
                         <i className='text-3xl md:text-4xl xl:text-5xl'><RiTruckLine /></i>
                         <p className='md:text-lg font-bold '>Fast <br /> Delivery</p>
                     </div>
-                    <p className='font-Lobster' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis</p>
+                    <p className='font-Lobster' >We deliver your favorite snacks quickly and safely, ensuring freshness with every order.</p>
                 </div>
 
                 {/* card 2 */}
@@ -22,7 +22,7 @@ const Services = () => {
                         <i className='text-3xl md:text-4xl xl:text-5xl'><RiCustomerServiceLine /></i>
                         <p className='md:text-lg font-bold '>Great Customer <br /> Service</p>
                     </div>
-                    <p className='font-Lobster' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis</p>
+                    <p className='font-Lobster' >Our dedicated team is here to help with any questions or concerns about your snack orders.</p>
                 </div>
 
                 {/* card 3 */}
@@ -30,9 +30,9 @@ const Services = () => {
     hover:-translate-y-1 duration-300 space-y-5'>
                     <div className='flex items-center gap-5'>
                         <i className='text-3xl md:text-4xl xl:text-5xl'><RiPlantLine /></i>
-                        <p className='md:text-lg font-bold '>Original <br /> Plants</p>
+                        <p className='md:text-lg font-bold '>Premium <br /> Quality</p>
                     </div>
-                    <p className='font-Lobster' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis</p>
+                    <p className='font-Lobster' >We source only the finest ingredients to ensure every snack meets our high standards of quality and taste.</p>
                 </div>
 
                 {/* card 4 */}
@@ -42,7 +42,7 @@ const Services = () => {
                         <i className='text-3xl md:text-4xl xl:text-5xl'><RiMoneyDollarCircleLine /></i>
                         <p className='md:text-lg font-bold '>Affordable <br /> Price</p>
                     </div>
-                    <p className='font-Lobster' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, facere debitis omnis</p>
+                    <p className='font-Lobster' >Enjoy premium quality snacks at competitive prices that fit your budget without compromising on taste.</p>
                 </div>
             </div>
         </div>

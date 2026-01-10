@@ -6,8 +6,8 @@ const Popular = ({popularRef}) => {
   return (
     <section ref={popularRef} id="popular" className='bg-green-900 py-20 md:py-28'>
         <div className='flex flex-col items-center gap-3 text-center mb-40'>
-                <h2 id="title" className='font-Lobster text-yellow-500 text-2xl md:text-3xl xl:text-4xl'>Your Choice Plant</h2>
-                <p className='max-w-2xl'>Follow instruction for more</p>
+                <h2 id="title" className='font-Lobster text-yellow-500 text-2xl md:text-3xl xl:text-4xl'>Popular Snacks</h2>
+                <p className='max-w-2xl'>Browse our most loved snack selections</p>
               </div>
 
               <div className='container w-full grid grid-cols-1 gap-x-8 gap-y-36 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
@@ -17,8 +17,8 @@ const Popular = ({popularRef}) => {
                   className='w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500
                   hover:-top-8'/>
 
-                  <p className='italic'>Nephrolepis exaltata</p>
-                  <h3 className='text-xl md:text-2xl xl:text-3xl'>Boston Fern</h3>
+                  <p className='italic'>Crunchy & Savory</p>
+                  <h3 className='text-xl md:text-2xl xl:text-3xl'>Classic Potato Chips</h3>
 
                   <div className='flex gap-1 text-xs text-yellow-500 py-3'>
                     <i><RiStarFill /></i>
@@ -42,8 +42,8 @@ const Popular = ({popularRef}) => {
                   className='w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500
                   hover:-top-8'/>
 
-                  <p className='italic'>Ficus elastica</p>
-                  <h3 className='text-xl md:text-2xl xl:text-3xl'>Rubber Plant</h3>
+                  <p className='italic'>Sweet & Chewy</p>
+                  <h3 className='text-xl md:text-2xl xl:text-3xl'>Trail Mix Bars</h3>
 
                   <div className='flex gap-1 text-xs text-yellow-500 py-3'>
                     <i><RiStarFill /></i>
@@ -67,8 +67,8 @@ const Popular = ({popularRef}) => {
                   className='w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500
                   hover:-top-8'/>
 
-                  <p className='italic'>Spathiphyllum wallisii</p>
-                  <h3 className='text-xl md:text-2xl xl:text-3xl'>Peace Lily</h3>
+                  <p className='italic'>Healthy & Nutritious</p>
+                  <h3 className='text-xl md:text-2xl xl:text-3xl'>Roasted Nuts</h3>
 
                   <div className='flex gap-1 text-xs text-yellow-500 py-3'>
                     <i><RiStarFill /></i>
@@ -92,8 +92,8 @@ const Popular = ({popularRef}) => {
                   className='w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500
                   hover:-top-8'/>
 
-                  <p className='italic'>Adenium obesum</p>
-                  <h3 className='text-xl md:text-2xl xl:text-3xl'>Desert Rose</h3>
+                  <p className='italic'>Spicy & Bold</p>
+                  <h3 className='text-xl md:text-2xl xl:text-3xl'>Flavored Popcorn</h3>
 
                   <div className='flex gap-1 text-xs text-yellow-500 py-3'>
                     <i><RiStarFill /></i>

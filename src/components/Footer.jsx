@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className='bg-yellow-100 text-green-950 pt-20 pb-10 md:pt-28 relative'>
             {/*--------  newsletter -------- */}
-            <div className='container text-white absolute top-0 right-0 left-0
+            {/* <div className='container text-white absolute top-0 right-0 left-0
         -translate-y-1/2'>
                 <div className='bg-green-900 px-10 pt-5 pb-10 space-y-5 rounded-xl'>
                     <h3>
@@ -23,7 +23,7 @@ const Footer = () => {
                         </button>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/*--------  social icon -------- */}
             <div className='container mt-16 mb-10'>
                 <div className='border-b border-green-500 relative'>
@@ -43,7 +43,7 @@ const Footer = () => {
                 <div>
                     <div className='flex flex-col items-center text-7xl text-green-700 text-center inline-block'>
                         <i><RiLeafFill /></i>
-                        <p className='font-Lobster text-xl sm:text-2xl'>IndoorPlants.</p>
+                        <p className='font-Lobster text-xl sm:text-2xl'>SnackingBits.</p>
                     </div>
                 </div>
 
@@ -52,10 +52,10 @@ const Footer = () => {
                     <p className='mb-5 font-bold text-xl'>Quick Link</p>
 
                     <div className='flex flex-col gap-1'>
-                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1' >Plants</a>
-                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1' >Flowers</a>
-                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1' >Gardening</a>
-                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1' >Seeds</a>
+                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1' >Chips</a>
+                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1' >Nuts</a>
+                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1' >Bars</a>
+                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1' >Crackers</a>
                         <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1' >Shipping</a>
                     </div>
                 </div>
@@ -65,10 +65,10 @@ const Footer = () => {
                     <p className='mb-5 font-bold text-xl'>Popular Services</p>
 
                     <div className='flex flex-col gap-1'>
-                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1'>Tree Planting</a>
-                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1'>Grass Cutting</a>
-                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1'>Weeds control</a>
-                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1'>Project</a>
+                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1'>Bulk Orders</a>
+                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1'>Subscription Box</a>
+                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1'>Gift Cards</a>
+                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1'>Special Offers</a>
                     </div>
                 </div>
 
@@ -78,7 +78,7 @@ const Footer = () => {
 
                     <div className='flex flex-col gap-1'>
                         <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1'>+9876543210</a>
-                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1'>CCOders@gmail.com</a>
+                        <a href="#" className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1'>info@snackingbits.com</a>
                         <br />
                         <p className='transition-all duration-300 hover:text-green-500 hover:font-bold hover:-translate-y-1'>1234 tailwind Ave, Csscity, webland 56789, USA</p>
                     </div>
