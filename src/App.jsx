@@ -11,6 +11,7 @@ import About from './components/About';
 import Popular from './components/Popular';
 import Review from './components/Review';
 import Footer from './components/Footer';
+import RevealOnScroll from './components/RevealOnScroll';
 
 function App() {
   const aboutRef = useRef(null);
@@ -29,22 +30,40 @@ function App() {
   return (
     <>
       {/*--------------- header -------------- */}
-      <Header aboutRef={aboutRef} popularRef={popularRef} reviewRef={reviewRef} homeRef={homeRef} handleFunc={scrollToWithOffset}/>
-      <main>
+      <Header
+        aboutRef={aboutRef}
+        popularRef={popularRef}
+        reviewRef={reviewRef}
+        homeRef={homeRef}
+        handleFunc={scrollToWithOffset}
+      />
+      <main className="pt-16 sm:pt-20">
         {/*--------   Home  ---------- */}
-        <Home homeRef={homeRef}/>
+        <RevealOnScroll delay={80}>
+          <Home homeRef={homeRef}/>
+        </RevealOnScroll>
         {/*--------   Services  --------- */}
-        <Services />
+        <RevealOnScroll delay={160}>
+          <Services />
+        </RevealOnScroll>
         {/*--------   About us ----------*/}
-        <About aboutRef={aboutRef}/>
+        <RevealOnScroll delay={240}>
+          <About aboutRef={aboutRef}/>
+        </RevealOnScroll>
         {/*--------  Popular -------- */}
-        <Popular popularRef={popularRef}/>
+        <RevealOnScroll delay={320}>
+          <Popular popularRef={popularRef}/>
+        </RevealOnScroll>
         {/*--------  Review -------- */}
-        <Review reviewRef={reviewRef}/>
+        <RevealOnScroll delay={400}>
+          <Review reviewRef={reviewRef}/>
+        </RevealOnScroll>
       </main>
 
       {/*--------  Footer -------- */}
-      <Footer />
+      <RevealOnScroll delay={480}>
+        <Footer />
+      </RevealOnScroll>
 
       {/* < ! ---------~~~~~~~~ Scroll Up ~~~~~~~~~~~---- > */}
 

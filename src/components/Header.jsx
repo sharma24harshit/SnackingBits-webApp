@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { RiCloseLargeFill, RiMenu4Fill } from "react-icons/ri";
-import leaf1 from '../assets/img/leaf-1.png';
 import leaf2 from '../assets/img/leaf-2.png';
 
 const Header = ({aboutRef, popularRef, reviewRef, homeRef,  handleFunc}) => {
@@ -13,7 +12,7 @@ const Header = ({aboutRef, popularRef, reviewRef, homeRef,  handleFunc}) => {
                 <div className='font-Lobster sm:text-3xl'> SnackingBits </div>
 
                 <div id="nav-menu" className={`absolute top-0 ${showMenu ? 'left-[0]' : 'left-[-100%]'} min-h-[80vh]
-       w-full bg-green-950/80 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden
+       w-full bg-teal-950/80 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden
        lg:static lg:min-h-fit lg:bg-transparent lg:w-auto`}>
 
                     <ul className='flex flex-col items-center gap-8 lg:flex-row'>
@@ -35,9 +34,9 @@ const Header = ({aboutRef, popularRef, reviewRef, homeRef,  handleFunc}) => {
                              }} >Review</a></li>
                     </ul>
 
-                    <div className='absolute bottom-0 -right-10 opacity-90 lg:hidden'>
+                    {/* <div className='absolute bottom-0 -right-10 opacity-90 lg:hidden'>
                         <img src={leaf1} alt="leaf_image" className="w-32" />
-                    </div>
+                    </div> */}
 
                     <div className='absolute -top-5 -left-5 rotate-90 opacity-90 lg:hidden'>
                         <img src={leaf2} alt="leaf_image" className="w-32" />

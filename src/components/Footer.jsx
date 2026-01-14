@@ -1,6 +1,7 @@
 import React from 'react'
-import { RiFacebookFill, RiInstagramLine, RiLeafFill, RiLinkedinBoxFill, RiSendPlane2Fill, RiTwitterXLine } from "react-icons/ri";
+import { RiFacebookFill, RiInstagramLine, RiLinkedinBoxFill, RiTwitterXLine } from "react-icons/ri";
 import floral from '../assets/img/floral-1.png';
+import { GiAlmond } from 'react-icons/gi';
 
 const Footer = () => {
     return (
@@ -41,9 +42,9 @@ const Footer = () => {
             <div className='container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start'>
                 {/* item 1 */}
                 <div>
-                    <div className='flex flex-col items-center text-7xl text-green-700 text-center inline-block'>
-                        <i><RiLeafFill /></i>
-                        <p className='font-Lobster text-xl sm:text-2xl'>SnackingBits.</p>
+                    <div className='flex flex-col items-center text-7xl text-center inline-block'>
+                        <i className='text-red-900'><GiAlmond /></i>
+                        <p className='font-Lobster text-xl sm:text-2xl text-green-700'>SnackingBits.</p>
                     </div>
                 </div>
 

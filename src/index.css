@@ -7,3 +7,35 @@
 body {
     @apply bg-teal-900 text-white font-Jost tracking-wider;
   }
+
+/* -------- Scroll reveal: "rise from bottom" + fade -------- */
+@keyframes sb-rise-in {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 28px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.sb-reveal-up {
+  opacity: 0;
+  transform: translate3d(0, 28px, 0);
+  will-change: transform, opacity;
+}
+
+.sb-reveal-up.is-visible {
+  animation: sb-rise-in 800ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: var(--sb-delay, 0ms);
+}
+
+/* Accessibility: respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .sb-reveal-up {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+}

@@ -1,18 +1,30 @@
 import React from 'react'
 import { RiFacebookFill, RiFlowerLine, RiInstagramLine, RiLeafLine, RiLinkedinBoxFill, RiPlantLine, RiTwitterXLine } from "react-icons/ri";
-import home from '../assets/img/home1.png';
+import home1 from '../assets/img/home1.png';
+import home2 from '../assets/img/home2.png';
+import home3 from '../assets/img/home3.png';
+import InfiniteCarousel from './InfiniteCarousel';
+import { GiGrainBundle } from 'react-icons/gi';
+import { HiOutlineLightningBolt } from 'react-icons/hi';
+import { FaSeedling } from 'react-icons/fa';
+
+const heroImages = [
+    home1,
+    home2,
+    home3,
+  ];
 
 const Home = ({homeRef}) => {
     return (
         <section ref={homeRef} id="home" className='relative py-20 md:py-28'>
             <div className='container'>
                 {/* blob 1 */}
-                <div className='w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute top-1/2 left-1/2
+                <div className='w-64 h-64 bg-teal-700 rounded-full blur-3xl -z-10 opacity-40 absolute top-1/2 left-1/2
      transform -translate-x-1/2 -translate-y-1/2'>
                 </div>
 
                 {/* blob 2 */}
-                <div className='w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute -right-10 bottom-0
+                <div className='w-64 h-64 bg-teal-700 rounded-full blur-3xl -z-10 opacity-40 absolute -right-10 bottom-0
      transform -translate-x-1/2 -translate-y-1/2'>
                 </div>
 
@@ -56,21 +68,32 @@ const Home = ({homeRef}) => {
                     </div>
                     {/* image */}
                     <div className='w-full relative lg:w-1/2'>
-                        <img src={home} alt="home_image" />
+                    <InfiniteCarousel
+                            interval={3000}
+                            transitionDuration = {600}
+                            items={heroImages.map((image, index) => (
+                                <div
+                                    key={index}
+                                    className='w-full mx-auto'
+                                >
+                               <img src={image} alt="home_image" />
+                                </div>
+                            ))}
+                          />
 
                         {/* leaf */}
                         <div className='absolute -top-0 right-0 opacity-30 xl:top-5 animate-movingY'>
-                            <i className='text-6xl text-yellow-500'><RiLeafLine /></i>
+                            <i className='text-6xl text-yellow-500'><HiOutlineLightningBolt /></i>
                         </div>
 
                         {/* flower */}
                         <div className='absolute bottom-0 left-0 opacity-30 xl:bottom-12 animate-rotating'>
-                            <i className='text-6xl text-yellow-500'><RiFlowerLine /></i>
+                            <i className='text-6xl text-yellow-500'><FaSeedling /></i>
                         </div>
 
                         {/* plant */}
                         <div className='hidden absolute -top-8 -left-5 opacity-30 lg:block animate-scalingUp'>
-                            <i className='text-6xl text-yellow-500'><RiPlantLine /></i>
+                            <i className='text-6xl text-yellow-500'><GiGrainBundle /></i>
                         </div>
                     </div>
                 </div>
